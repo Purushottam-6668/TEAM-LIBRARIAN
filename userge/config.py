@@ -34,7 +34,7 @@ logbot.reply_last_msg("Setting Configs ...")
 
 
 class Config:
-    """Configs to setup USERGE-X"""
+    """ Configs to setup USERGE-X """
 
     API_ID = int(os.environ.get("API_ID"))
     API_HASH = os.environ.get("API_HASH")
@@ -56,6 +56,7 @@ class Config:
     UNFINISHED_PROGRESS_STR = os.environ.get("UNFINISHED_PROGRESS_STR")
     ALIVE_MEDIA = os.environ.get("ALIVE_MEDIA")
     CUSTOM_PACK_NAME = os.environ.get("CUSTOM_PACK_NAME")
+    CUSTOM_PLUGINS_REPO = os.environ.get("CUSTOM_PLUGINS_REPO")
     INSTA_ID = os.environ.get("INSTA_ID")
     INSTA_PASS = os.environ.get("INSTA_PASS")
     UPSTREAM_REPO = os.environ.get("UPSTREAM_REPO")
@@ -73,6 +74,7 @@ class Config:
     G_DRIVE_INDEX_LINK = os.environ.get("G_DRIVE_INDEX_LINK")
     GOOGLE_CHROME_DRIVER = os.environ.get("GOOGLE_CHROME_DRIVER")
     GOOGLE_CHROME_BIN = os.environ.get("GOOGLE_CHROME_BIN")
+    GENIUS = os.environ.get("GENIUS")
     HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY")
     HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME")
     G_DRIVE_IS_TD = os.environ.get("G_DRIVE_IS_TD") == "true"
@@ -112,6 +114,7 @@ class Config:
     ALLOW_NSFW = os.environ.get("ALLOW_NSFW", "False")
     PM_LOG_GROUP_ID = int(os.environ.get("PM_LOG_GROUP_ID", 0))
     PM_LOGGING = False
+    TAG_LOGGING = False
     DEEP_AI = os.environ.get("DEEP_AI")
     LASTFM_USERNAME = os.environ.get("LASTFM_USERNAME")
     LASTFM_API_KEY = os.environ.get("LASTFM_API_KEY")
@@ -121,7 +124,7 @@ class Config:
 
 
 def get_version() -> str:
-    """get USERGE-X version"""
+    """ get USERGE-X version """
     ver = f"{versions.__major__}.{versions.__minor__}.{versions.__micro__}"
     if Config.HEROKU_ENV:
         if not hasattr(Config, "HBOT_VERSION"):
@@ -167,3 +170,4 @@ def hbot_version(tag: str) -> str:
             except JSONDecodeError:
                 pass
     return f"{tag}|{tag_name or ''}{commits or ''}@{pref_branch or branch or 'alpha'}"
+© 2021 GitHub, Inc.
