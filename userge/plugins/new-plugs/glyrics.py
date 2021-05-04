@@ -1,13 +1,14 @@
 # ported from oub-remix to USERGE-X by AshSTR/ashwinstr
 
-import lyricsgenius
-import requests
-import aiohttp
 import json
 
+import aiohttp
+import lyricsgenius
+import requests
 from bs4 import BeautifulSoup
 from googlesearch import search
-from userge import Message, userge, Config
+
+from userge import Config, Message, userge
 from userge.utils import post_to_telegraph
 
 if Config.GENIUS is not None:
@@ -31,9 +32,11 @@ async def lyrics(message: Message):
         await message.err("Search song lyrics without song name?")
         return
     if Config.GENIUS is None:
-        await message.err("Provide 'Genius access token' as `GENIUS` to config vars...\nGet it from docs.genius.com")
+        await message.err(
+            "Provide 'Genius access token' as `GENIUS` to config vars...\nGet it from docs.genius.com"
+        )
         return
-    
+
     to_search = song + "genius lyrics"
     gen_surl = list(search(to_search, num=1, stop=1))[0]
     gen_page = requests.get(gen_surl)
@@ -67,7 +70,7 @@ async def lyrics(message: Message):
     for s in name_s:
         s = s.capitalize()
         song_s.append(s)
-    song = " ".join(song_s) 
+    song = " ".join(song_s)
     if artist == "":
         title = song
     else:
@@ -99,7 +102,10 @@ async def lyrics(message: Message):
         else:
             lyrics = lyrics.replace("\n", "<br>")
             link = post_to_telegraph(f"Lyrics for {title}...", lyrics)
-            await message.edit(f"Lyrics for **{title}** by Genius.com...\n[Link]({link})", disable_web_page_preview=True)
+            await message.edit(
+                f"Lyrics for **{title}** by Genius.com...\n[Link]({link})",
+                disable_web_page_preview=True,
+            )
         return
     if lyr is None:
         await message.edit(f"Couldn't find `{title}` on Genius...")
@@ -114,6 +120,9 @@ async def lyrics(message: Message):
     if len(lyr_msg) <= 4096 and "-t" not in flag:
         await message.edit(f"{lyr_msg}")
     else:
-        lyrics = lyrics.replace("\n", "<br>") 
+        lyrics = lyrics.replace("\n", "<br>")
         link = post_to_telegraph(f"Lyrics for {title}...", lyrics)
-        await message.edit(f"Lyrics for **{title}** by Genius.com...\n[Link]({link})", disable_web_page_preview=True)
+        await message.edit(
+            f"Lyrics for **{title}** by Genius.com...\n[Link]({link})",
+            disable_web_page_preview=True,
+        )
