@@ -63,7 +63,7 @@ REPO_X = InlineQueryResultArticle(
     ),
     url="https://github.com/PURHSHOTTAM",
     description="Setup Your Own",
-    thumb_url="https://telegra.ph/file/29bbbae5dec999fa986a0.png",
+    thumb_url=" ",
     reply_markup=InlineKeyboardMarkup(
         [
             [
@@ -215,7 +215,7 @@ if userge.has_bot:
             await callback_query.answer("you are in main menu", show_alert=True)
             return
         if len(pos_list) == 2:
-            text = " [🎛 𝐌𝐀𝐈𝐍 𝐌𝐄𝐍𝐔🎛](https://telegra.ph/file/29bbbae5dec999fa986a0.png) Hᴇʏᴀ Usᴇʀ Yᴏᴜ Cᴀɴ Eᴀsɪʟʏ Usᴇ ᴍᴇ ʙʏ ᴛᴡᴏ ᴡᴀʏs 1sᴛ ʙʏ Lɪsᴛ ᴍᴇɴᴜ Aɴᴅ 2ɴᴅ Bʏ Iɴʟɪɴᴇ Bᴜᴛᴛᴏɴs ʟɪᴋᴇ ᴛʜᴀᴛ☟︎︎︎..sᴏ Jᴜsᴛ sᴇᴀʀᴄʜ sᴇᴄᴛɪᴏɴ ᴡɪsᴇ ᴀɴᴅ ɢᴇᴛ ɪɴꜰᴏ ᴀʙᴏᴜᴛ ᴍʏ ᴀʟʟ ᴍᴏᴅᴜʟᴇs ᴀɴᴅ ʜᴏᴡ ɪᴛ ᴡᴏʀᴋs ᴀɴᴅ ᴇɴᴊᴏʏ 😻"
+            text = "  🎛 𝐌𝐀𝐈𝐍 𝐌𝐄𝐍𝐔🎛 Hᴇʏᴀ Usᴇʀ Yᴏᴜ Cᴀɴ Eᴀsɪʟʏ Usᴇ ᴍᴇ ʙʏ ᴛᴡᴏ ᴡᴀʏs 1sᴛ ʙʏ Lɪsᴛ ᴍᴇɴᴜ Aɴᴅ 2ɴᴅ Bʏ Iɴʟɪɴᴇ Bᴜᴛᴛᴏɴs ʟɪᴋᴇ ᴛʜᴀᴛ☟︎︎︎..sᴏ Jᴜsᴛ sᴇᴀʀᴄʜ sᴇᴄᴛɪᴏɴ ᴡɪsᴇ ᴀɴᴅ ɢᴇᴛ ɪɴꜰᴏ ᴀʙᴏᴜᴛ ᴍʏ ᴀʟʟ ᴍᴏᴅᴜʟᴇs ᴀɴᴅ ʜᴏᴡ ɪᴛ ᴡᴏʀᴋs ᴀɴᴅ ᴇɴᴊᴏʏ 😻"
             buttons = main_menu_buttons()
         elif len(pos_list) == 3:
             text, buttons = category_data(cur_pos)
@@ -267,7 +267,7 @@ if userge.has_bot:
     @check_owner
     async def callback_mm(callback_query: CallbackQuery):
         await callback_query.edit_message_text(
-            " [🎛 𝐌𝐀𝐈𝐍 𝐌𝐄𝐍𝐔🎛](https://telegra.ph/file/29bbbae5dec999fa986a0.png) Hᴇʏᴀ Usᴇʀ Yᴏᴜ Cᴀɴ Eᴀsɪʟʏ Usᴇ ᴍᴇ ʙʏ ᴛᴡᴏ ᴡᴀʏs 1sᴛ ʙʏ Lɪsᴛ ᴍᴇɴᴜ Aɴᴅ 2ɴᴅ Bʏ Iɴʟɪɴᴇ Bᴜᴛᴛᴏɴs ʟɪᴋᴇ ᴛʜᴀᴛ☟︎︎︎..sᴏ Jᴜsᴛ sᴇᴀʀᴄʜ sᴇᴄᴛɪᴏɴ ᴡɪsᴇ ᴀɴᴅ ɢᴇᴛ ɪɴꜰᴏ ᴀʙᴏᴜᴛ ᴍʏ ᴀʟʟ ᴍᴏᴅᴜʟᴇs ᴀɴᴅ ʜᴏᴡ ɪᴛ ᴡᴏʀᴋs ᴀɴᴅ ᴇɴᴊᴏʏ 😻𝗨 ",
+            "  🎛 𝐌𝐀𝐈𝐍 𝐌𝐄𝐍𝐔🎛 Hᴇʏᴀ Usᴇʀ Yᴏᴜ Cᴀɴ Eᴀsɪʟʏ Usᴇ ᴍᴇ ʙʏ ᴛᴡᴏ ᴡᴀʏs 1sᴛ ʙʏ Lɪsᴛ ᴍᴇɴᴜ Aɴᴅ 2ɴᴅ Bʏ Iɴʟɪɴᴇ Bᴜᴛᴛᴏɴs ʟɪᴋᴇ ᴛʜᴀᴛ☟︎︎︎..sᴏ Jᴜsᴛ sᴇᴀʀᴄʜ sᴇᴄᴛɪᴏɴ ᴡɪsᴇ ᴀɴᴅ ɢᴇᴛ ɪɴꜰᴏ ᴀʙᴏᴜᴛ ᴍʏ ᴀʟʟ ᴍᴏᴅᴜʟᴇs ᴀɴᴅ ʜᴏᴡ ɪᴛ ᴡᴏʀᴋs ᴀɴᴅ ᴇɴᴊᴏʏ 😻𝗨 ",
             reply_markup=InlineKeyboardMarkup(main_menu_buttons()),
         )
 
@@ -1142,7 +1142,7 @@ if userge.has_bot:
             MAIN_MENU = InlineQueryResultArticle(
                 title="Main Menu",
                 input_message_content=InputTextMessageContent(
-                    " [🎛 𝐌𝐀𝐈𝐍 𝐌𝐄𝐍𝐔🎛](https://telegra.ph/file/29bbbae5dec999fa986a0.png) Hᴇʏᴀ Usᴇʀ Yᴏᴜ Cᴀɴ Eᴀsɪʟʏ Usᴇ ᴍᴇ ʙʏ ᴛᴡᴏ ᴡᴀʏs 1sᴛ ʙʏ Lɪsᴛ ᴍᴇɴᴜ Aɴᴅ 2ɴᴅ Bʏ Iɴʟɪɴᴇ Bᴜᴛᴛᴏɴs ʟɪᴋᴇ ᴛʜᴀᴛ☟︎︎︎..sᴏ Jᴜsᴛ sᴇᴀʀᴄʜ sᴇᴄᴛɪᴏɴ ᴡɪsᴇ ᴀɴᴅ ɢᴇᴛ ɪɴꜰᴏ ᴀʙᴏᴜᴛ ᴍʏ ᴀʟʟ ᴍᴏᴅᴜʟᴇs ᴀɴᴅ ʜᴏᴡ ɪᴛ ᴡᴏʀᴋs ᴀɴᴅ ᴇɴᴊᴏʏ 😻𝗨 "
+                    "  🎛 𝐌𝐀𝐈𝐍 𝐌𝐄𝐍𝐔🎛 Hᴇʏᴀ Usᴇʀ Yᴏᴜ Cᴀɴ Eᴀsɪʟʏ Usᴇ ᴍᴇ ʙʏ ᴛᴡᴏ ᴡᴀʏs 1sᴛ ʙʏ Lɪsᴛ ᴍᴇɴᴜ Aɴᴅ 2ɴᴅ Bʏ Iɴʟɪɴᴇ Bᴜᴛᴛᴏɴs ʟɪᴋᴇ ᴛʜᴀᴛ☟︎︎︎..sᴏ Jᴜsᴛ sᴇᴀʀᴄʜ sᴇᴄᴛɪᴏɴ ᴡɪsᴇ ᴀɴᴅ ɢᴇᴛ ɪɴꜰᴏ ᴀʙᴏᴜᴛ ᴍʏ ᴀʟʟ ᴍᴏᴅᴜʟᴇs ᴀɴᴅ ʜᴏᴡ ɪᴛ ᴡᴏʀᴋs ᴀɴᴅ ᴇɴᴊᴏʏ 😻𝗨 "
                 ),
                 url="https://github.com/PURUSHOTTAM",
                 description="🎛𝐖𝐡𝐢𝐭𝐞 𝐓𝐢𝐠𝐞𝐫'𝐬 𝐌𝐚𝐢𝐧 𝐌𝐞𝐧𝐮 🎛",
