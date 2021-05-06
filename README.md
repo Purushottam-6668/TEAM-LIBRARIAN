@@ -13,10 +13,7 @@ These Userbot is specially Maded  For Team Admin + owners Of Librarian <b>
    <br>
    <br>
 </p>
-</b> REPO SIZE 
-[![Size](https://img.shields.io/github/repo-size/PURHSHOTTAM/TEAM-LIBRARIAN?style=flat-square&color=green)](https://github.com/PURHSHOTTAM/TEAM-LIBRARIAN/)   
-____
-
+</b>
 <h1>TEAM-LIBRARIAN</h1>
 <b>Pluggable Telegram UserBot Light wait And Easy To Handle</b>
 <br>
