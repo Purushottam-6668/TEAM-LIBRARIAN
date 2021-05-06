@@ -16,10 +16,10 @@ These Userbot is specially Maded  For Team Admin + owners Of Librarian <b>
 <h1>TEAM-LIBRARIAN</h1>
 <b>Pluggable Telegram UserBot Light wait And Easy To Handle</b>
 <br>
-### Repo Size ->
-[![Size](https://img.shields.io/github/repo-size/PURUSHOTTAM/TEAM-LIBRARIAN?style=flat-square&color=green)](https://github.com/PURUSHOTTAM/TEAM-LIBRARIAN/)]
+### Repo Size
 
-[!<br>
+
+<br>
 <p align="center">
     <a href="https://telegram.dog/Team_Librarian"><img src="https://img.shields.io/badge/Team%20Librarian---%F0%9D%91%BF-blue?&logo=telegram&style=social" width=220px></a></p>
 # How To Host {CREAT} 
