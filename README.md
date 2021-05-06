@@ -70,8 +70,26 @@ The easiest way to deploy this Bot
 That Is Not Important So If You Want to set then setup your own ok.
 [READ HERE AND SETUP ](https://telegra.ph/HEROKU-VARS-FOR-TEAM-LIBRARIANS-USERBOT-05-05)
 
+## INFO ABOUT SOURCE
+<b>A stable pluggable Telegram userbot  based on PYROGRAM .</b>
 
-## Disclaimer
+[![Stars](https://img.shields.io/github/stars/PURHSHOTTAM/TEAM-LIBRARIAN?style=flat-square&color=yellow)](https://github.com/PURHSHOTTAM/TEAM-LIBRARIAN/stargazers)
+[![Forks](https://img.shields.io/github/forks/PURHSHOTTAM/TEAM-LIBRARIAN?style=flat-square&color=orange)](https://github.com/PURHSHOTTAM/TEAM-LIBRARIAN/fork)
+[![Size](https://img.shields.io/github/repo-size/PURHSHOTTAM/TEAM-LIBRARIAN?style=flat-square&color=green)](https://github.com/PURHSHOTTAM/TEAM-LIBRARIAN/)   
+[![Python](https://img.shields.io/badge/Python-v3.9-blue)](https://www.python.org/)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/PURHSHOTTAM/TEAM-LIBRARIAN/graphs/commit-activity)
+[![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/PURHSHOTTAM/TEAM-LIBRARIAN)   
+[![Contributors](https://img.shields.io/github/contributors/PURHSHOTTAM/TEAM-LIBRARIAN?style=flat-square&color=green)](https://github.com/PURHSHOTTAM/TEAM-LIBRARIAN/graphs/contributors)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com)
+[![License](https://img.shields.io/badge/License-AGPL-blue)](https://github.com/PURHSHOTTAM/TEAM-LIBRARIAN/blob/main/LICENSE)   
+[![HitCount](http://hits.dwyl.com/PURHSHOTTAM/PURHSHOTTAM/TEAM-LIBRARIAN.svg)](http://hits.dwyl.com/PURHSHOTTAM/PURHSHOTTAM/TEAM-LIBRARIAN)   
+[![Sparkline](https://stars.medv.io/PURHSHOTTAM/TEAM-LIBRARIAN.svg)](https://stars.medv.io/PURHSHOTTAM/TEAM-LIBRARIAN)
+
+----
+
+
+
+# Disclaimer
 
 ```
 /**⚠️Kang at your own risk⚠️      
