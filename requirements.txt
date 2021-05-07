@@ -24,6 +24,7 @@ pybase64>=1.1.1
 PyPDF2
 git+https://github.com/code-rgb/pyrogram.git@x21
 pySmartDL>=1.3.4
+pytgcalls
 python-dotenv>=0.15.0
 pytz>=2020.4
 rarfile>=4.0
@@ -48,3 +49,5 @@ ujson>=4.0.1
 youtube-search-python==1.4.2
 git+https://github.com/code-rgb/google-images-download.git
 feedparser>=6.0.2
+youtube_dl>=2021.1.8
+youtube-search-python
