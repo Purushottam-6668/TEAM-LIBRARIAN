@@ -6,6 +6,8 @@
 # and is released under the "GNU v3.0 License Agreement".
 # Please see < https://github.com/uaudith/Userge/blob/master/LICENSE >
 #
-# All rights reserved.
+# All rights reserved
+
+.
 
 python3 tools/genStrSession.py
