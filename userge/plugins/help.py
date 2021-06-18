@@ -69,15 +69,17 @@ REPO_X = InlineQueryResultArticle(
             [
                 InlineKeyboardButton(
                     "❲❱ SOURCE CODE ❰❰❳", url="https://t.me/Team_Librarian/42"
-                )],
-                [InlineKeyboardButton(
+                )
+            ],
+            [
+                InlineKeyboardButton(
                     "❲❱❱ SETUP YOUR OWN ❰❰❳",
                     url=(
                         "https://heroku.com/deploy?template="
                         "https://github.com/PURHSHOTTAM/TEAM-LIBRARIAN-PACK"
                     ),
                 ),
-            ]
+            ],
         ]
     ),
 )
