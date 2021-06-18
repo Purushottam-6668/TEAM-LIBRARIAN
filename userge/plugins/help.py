@@ -59,7 +59,7 @@ SAVED_SETTINGS = get_collection("CONFIGS")
 REPO_X = InlineQueryResultArticle(
     title="Repo",
     input_message_content=InputTextMessageContent(
-        "**「 Here's how to setup Your Own 」** "
+        "**「Here's how to setup Your Own」** "
     ),
     url="https://github.com/PURHSHOTTAM",
     description="Setup Your Own",
@@ -68,10 +68,10 @@ REPO_X = InlineQueryResultArticle(
         [
             [
                 InlineKeyboardButton(
-                    "❲❱SOURCE❰❰❳", url="https://t.me/Team_Librarian/42"
-                ),
-                InlineKeyboardButton(
-                    "❲❱❱SETUP YOUR OWN❰❰❳",
+                    "❲❱ SOURCE CODE ❰❰❳", url="https://t.me/Team_Librarian/42"
+                )],
+                [InlineKeyboardButton(
+                    "❲❱❱ SETUP YOUR OWN ❰❰❳",
                     url=(
                         "https://heroku.com/deploy?template="
                         "https://github.com/PURHSHOTTAM/TEAM-LIBRARIAN-PACK"
@@ -369,7 +369,7 @@ if userge.has_bot:
             cur_clnt = "👤 USER" if Config.USE_USER_FOR_CLIENT_CHECKS else "⚙️ BOT"
             tmp_btns.append(
                 InlineKeyboardButton(
-                    f"🔩𝐁𝐎𝐓 &𝐔𝐒𝐄𝐑 𝐌𝐎𝐃𝐄: {cur_clnt}",
+                    f"🔩 Bot & User Mode : {cur_clnt}",
                     callback_data="chgclnt",
                 )
             )
@@ -1145,7 +1145,7 @@ if userge.has_bot:
                     "  🎛 𝐌𝐀𝐈𝐍 𝐌𝐄𝐍𝐔🎛 Hᴇʏᴀ Usᴇʀ Yᴏᴜ Cᴀɴ Eᴀsɪʟʏ Usᴇ ᴍᴇ ʙʏ ᴛᴡᴏ ᴡᴀʏs 1sᴛ ʙʏ Lɪsᴛ ᴍᴇɴᴜ Aɴᴅ 2ɴᴅ Bʏ Iɴʟɪɴᴇ Bᴜᴛᴛᴏɴs ʟɪᴋᴇ ᴛʜᴀᴛ☟︎︎︎..sᴏ Jᴜsᴛ sᴇᴀʀᴄʜ sᴇᴄᴛɪᴏɴ ᴡɪsᴇ ᴀɴᴅ ɢᴇᴛ ɪɴꜰᴏ ᴀʙᴏᴜᴛ ᴍʏ ᴀʟʟ ᴍᴏᴅᴜʟᴇs ᴀɴᴅ ʜᴏᴡ ɪᴛ ᴡᴏʀᴋs ᴀɴᴅ ᴇɴᴊᴏʏ 😻𝗨 "
                 ),
                 url="https://github.com/PURUSHOTTAM",
-                description="🎛𝐖𝐡𝐢𝐭𝐞 𝐓𝐢𝐠𝐞𝐫'𝐬 𝐌𝐚𝐢𝐧 𝐌𝐞𝐧𝐮 🎛",
+                description="🎛 White Tiger's Main Menu 🎛",
                 thumb_url="https://telegra.ph/file/b360d3ca40e19e78b68c8.jpg",
                 reply_markup=InlineKeyboardMarkup(main_menu_buttons()),
             )
