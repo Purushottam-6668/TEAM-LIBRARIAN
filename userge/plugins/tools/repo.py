@@ -6,7 +6,7 @@
 #
 # All rights reserved.
 
-from userge import Config, Message, userge
+from userge import Message, userge
 
 
 @userge.on_cmd("repo", about={"header": "get repo link and details"})
