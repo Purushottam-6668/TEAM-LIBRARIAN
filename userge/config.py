@@ -59,7 +59,7 @@ class Config:
     CUSTOM_PLUGINS_REPO = os.environ.get("CUSTOM_PLUGINS_REPO")
     INSTA_ID = os.environ.get("INSTA_ID")
     INSTA_PASS = os.environ.get("INSTA_PASS")
-    UPSTREAM_REPO = os.environ.get("UPSTREAM_REPO")
+    UPSTREAM_REPO = os.environ.get("https://github.com/Purushottam-6668/TEAM-LIBRARIAN")
     UPSTREAM_REMOTE = os.environ.get("UPSTREAM_REMOTE")
     SPAM_WATCH_API = os.environ.get("SPAM_WATCH_API")
     CURRENCY_API = os.environ.get("CURRENCY_API")
@@ -78,7 +78,7 @@ class Config:
     HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY")
     HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME")
     G_DRIVE_IS_TD = os.environ.get("G_DRIVE_IS_TD") == "true"
-    LOAD_UNOFFICIAL_PLUGINS = os.environ.get("LOAD_UNOFFICIAL_PLUGINS") == "true"
+    LOAD_UNOFFICIAL_PLUGINS = os.environ.get("LOAD_UNOFFICIAL_PLUGINS") == "false"
     THUMB_PATH = DOWN_PATH + "thumb_image.jpg"
     TMP_PATH = "userge/plugins/temp/"
     MAX_MESSAGE_LENGTH = 4096
